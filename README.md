@@ -1,2 +1,13 @@
 # BingRewardAuto
-Automatically obtain Bing Reward using Python
+
+## 说明
+
+### python 自动获取 bing 积分
+
+使用 selenium 操作 edge 浏览器（支持多账户，同时打开多个浏览器实例），获取百度热搜前 50 条，模拟用户搜索行为获取积分
+
+## 后续修改计划
+
+-   [ ] 增加获取移动端积分脚本
+-   [ ] 适配 mac
+-   [ ] 自动签到
