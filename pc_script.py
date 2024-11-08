@@ -82,12 +82,17 @@ def process(driver, keywords, total_count):
         perform_bing_search(driver, search_query)
         smooth_scroll_to_bottom(driver)
         time.sleep(random.uniform(10, 30))  # 等待10-30秒
+
 def main():
     user_list = [
-        "path to your Profile"
+        "C:\\Users\\27217\\AppData\\Local\\Microsoft\\Edge\\User Data\\Default",
+        "C:\\Users\\27217\\AppData\\Local\\Microsoft\\Edge\\User Data\\Profile 1",
+        "C:\\Users\\27217\\AppData\\Local\\Microsoft\\Edge\\User Data\\Profile 2",
+        "C:\\Users\\27217\\AppData\\Local\\Microsoft\\Edge\\User Data\\Profile 3",
+        "C:\\Users\\27217\\AppData\\Local\\Microsoft\\Edge\\User Data\\Profile 4",
     ]
-    edge_driver_path = "path to your msedgedriver"
-    total_count = 32 #指定32，以防部分搜索未生效
+    edge_driver_path = "D:\\myData\\Taki\\msedgedriver.exe"
+    total_count = 32
     keywords = get_random_elements(get_baidu_hot_search(), total_count)
     
     # 使用 ThreadPoolExecutor 进行多线程处理
