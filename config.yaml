@@ -1,0 +1,14 @@
+user_list:
+    - "path to your profile"
+
+# webdriver路径
+edge_driver_path: "path to your msedgedriver.exe"
+# 是否启用pc搜索
+pc_search: true
+# pc搜索次数
+pc_count: 2
+
+# 是否启用移动搜索
+mobile_search: true
+# 移动搜索次数
+mobile_count: 3
